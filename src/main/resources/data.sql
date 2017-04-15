@@ -1,7 +1,7 @@
-INSERT INTO user(login_name, pwd, enabled, role, email) VALUES ('publisher1', '$2a$10$RC1.YFSL8o2vCIg6kB3fjuBB639BdjY6AD8rIw9oyWJLws/1Q6Lku', TRUE, 'PUBLISHER', 'farid.crossover@gmail.com');
-INSERT INTO user(login_name, pwd, enabled, role, email) VALUES ('publisher2', '$2a$10$MUahUza86ErCxtsgpmMBDeR5VtoGHioRdl03/jQmkM/sk6L.Eg28e', TRUE, 'PUBLISHER', 'farid.crossover.2@sharklasers.com');
-INSERT INTO user(login_name, pwd, enabled, role, email) VALUES ('user1', '$2a$10$WcgRF8VQ8DKt4h4Hz9pWv.6MXnIRmcPr0j9jqsseprsBwTD4w8WSm', TRUE, 'USER', 'faridhgutierrez@gmail.com');
-INSERT INTO user(login_name, pwd, enabled, role, email) VALUES ('user2', '$2a$10$Q5bxyPXhHXFc1fRUMCRWR.GbgsXx9aGZdoEoEAz2JFEfckdyUKfOi', TRUE, 'USER', 'farid.crossover.2@sharklasers.com');
+INSERT INTO user(login_name, pwd, enabled, role, email) VALUES ('publisher1', '$2a$10$RC1.YFSL8o2vCIg6kB3fjuBB639BdjY6AD8rIw9oyWJLws/1Q6Lku', TRUE, 'PUBLISHER', 'test@gmail.com');
+INSERT INTO user(login_name, pwd, enabled, role, email) VALUES ('publisher2', '$2a$10$MUahUza86ErCxtsgpmMBDeR5VtoGHioRdl03/jQmkM/sk6L.Eg28e', TRUE, 'PUBLISHER', 'test@gmail.com');
+INSERT INTO user(login_name, pwd, enabled, role, email) VALUES ('user1', '$2a$10$WcgRF8VQ8DKt4h4Hz9pWv.6MXnIRmcPr0j9jqsseprsBwTD4w8WSm', TRUE, 'USER', 'test@gmail.com');
+INSERT INTO user(login_name, pwd, enabled, role, email) VALUES ('user2', '$2a$10$Q5bxyPXhHXFc1fRUMCRWR.GbgsXx9aGZdoEoEAz2JFEfckdyUKfOi', TRUE, 'USER', 'test@gmail.com');
 
 INSERT INTO publisher(user_id, name) VALUES (1, 'Test Publisher1 ');
 INSERT INTO publisher(user_id, name) VALUES (2, 'Test Publisher 2');
